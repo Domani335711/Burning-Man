@@ -1,0 +1,88 @@
+@import 'reset';
+ $black: #000;
+ $white: #fff;
+
+.container{
+    max-width: 1169px;
+    margin: 0 auto;
+}
+header{
+    background: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 57px;
+    padding-bottom: 322px;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 216px;
+        &__nav{
+            display: flex;
+            align-items: center;
+        }
+        &__logo{
+            margin-right: 69px;
+        }
+        .menu{
+            display: flex;
+            &__item{
+                margin-right: 40px;
+            }
+            &__item:last-child{
+                margin-right: 0;
+            }
+            &__link{
+                font-family: 'Anton';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px / 14px * 100%;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: $white;
+            }
+        }
+        &__tel{
+            font-family: 'Anton';
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px / 17px * 100%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: $white;
+        }
+    }
+    .box{
+        p{
+            font-family: 'Anton';
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px / 30px * 100%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: $white;
+        }
+        h1{
+            font-family: 'Anton';
+            font-weight: 400;
+            font-size: 100px;
+            line-height: 151px / 100px * 100%;
+            text-transform: uppercase;
+            color: $white;
+            padding-bottom: 15px;
+        }
+        button{
+            border: 1px solid #FFFFFF;
+            background: transparent;
+            font-family: 'Anton';
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px / 17px * 100%;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: $white;
+            padding: 18px 50px;
+        }
+
+    }
+}

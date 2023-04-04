@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1169px;
+  margin: 0 auto;
+}
+
+header {
+  background: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 57px;
+  padding-bottom: 322px;
+}
+header .header__nav {
+  display: flex;
+  align-items: center;
+}
+header .header__logo {
+  margin-right: 69px;
+}
+header .header .menu {
+  display: flex;
+}
+header .header .menu__item {
+  margin-right: 40px;
+}
+header .header .menu__item:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=style.css.map */
